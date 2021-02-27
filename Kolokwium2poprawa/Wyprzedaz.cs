@@ -16,7 +16,7 @@ namespace Kolokwium2poprawa
 
         public void WypszCene(Gips obj)
         {
-            Console.WriteLine(obj.Cena*(WysokoscPromocji/100));
+            Console.WriteLine("Nazwa produktu: "+ obj.Nazwa+" Cena po promocji: "+obj.Cena*(WysokoscPromocji/100));
         }
     }
 }
