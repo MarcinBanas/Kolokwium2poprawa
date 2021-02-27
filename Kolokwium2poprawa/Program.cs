@@ -14,9 +14,11 @@ namespace Kolokwium2poprawa
 
             List<SMS> ListaSms = new List<SMS>();
 
-            SMS sms1 = new SMS("a", "14");
-            SMS sms2 = new SMS("b", "15");
-            SMS sms3 = new SMS("c", "16");
+            Random rnd = new Random();
+
+            SMS sms1 = new SMS("a", rnd.Next(0,24));
+            SMS sms2 = new SMS("b", rnd.Next(0, 24));
+            SMS sms3 = new SMS("c", rnd.Next(0, 24));
 
             ListaSms.Add(sms1);
             ListaSms.Add(sms2);
